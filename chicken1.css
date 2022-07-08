@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+    background-color: #fff;
+}
+
+.logo{
+    width: 8em;
+    background-color: red;  
+    margin-left: 400px;
+    height: 7.5em;
+
+    
+}
+.logo img{
+    margin-left: 15px;
+    width: 100px;
+}
+
+.navbar{
+      background-color: rgba(0,0,0,0.50);
+      display: flex;
+      width: 100%;
+      max-width: 100%;
+      position: fixed;
+      height: 7.5em;
+
+}
+
+.menu li{
+    list-style-type: none;
+    margin-top: 40px;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+
+.menu a:hover{
+    color: rgb(185, 185, 159);
+    border-bottom: 5px solid red;
+}
+
+.menu{
+    display: flex;
+
+}
+
+.com{
+    position: relative;
+}
+
+.dropdown{
+    background-color: rgba(0,0,0,0.50);
+    position: absolute;
+    display: none;
+    border-radius: 15px;
+    text-align: center;
+    width: 18em;
+    top: 20px;
+    margin-top: 20px;
+     
+}
+
+.dropdown a:hover{
+    color: rgb(185, 185, 159);
+    border: none;
+
+} 
+
+.dropdown li{
+     margin-bottom: 25px;
+    
+}
+
+.com:hover .dropdown{
+    display: block;
+}
+
+
+.fonts{
+    display: flex;
+}
+
+
+.order{
+    width: 14em;
+    height: 6em;
+    margin-top: 10px;
+    border: none;
+
+}
+
+.order1 {
+    background-color: red;
+    height: 4.2em;
+    border: none;
+}
+
+
+.order1 h3{
+    margin-left: 90px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.order2{
+    background-color: yellow;
+    height: 1.8em;
+    border: none;
+
+}
+
+.order2 p{
+    color: red;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.order2 p:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+.order1 h3:hover{
+    color: yellow;
+}
+
+.img1{
+    width: 100%;
+    max-width: 100%;
+}
+
+.img1 img{
+         width: 100%;
+         height: 700px;    
+}
+
+.sect1{
+    background-color: red;
+     height: 10em;
+     width: 100%;
+    margin-top: -4px;
+}
+
+.like{
+background-color: yellow;
+padding: 5px 20px;
+color: red;
+border-radius: 20px;
+border-color: yellow;
+margin-left: 850px;
+margin-top: 20px;
+font-size: 25px;
+font-weight: bold;
+}
+
+.like:hover{
+background-color: white;
+}
+
+.like12{
+ margin-left: 160px;
+ 
+}
+
+.like2{
+ display: flex;
+margin-left: 190px;
+margin-top: 40px;
+padding: -50px;
+text-align: center;
+}
+
+
+.like2 a{
+ text-decoration: none;
+ list-style-type: none;
+ font-size: 12px;
+ margin-top: 13px;
+ color: white;
+ padding-left: 60px;
+ font-size: 15px;
+ /* font-family: ; */
+  
+}
+
+.like2 a:hover{
+color: yellow;
+}
+
+
+.sect2{
+    background-color: yellow;
+    height: 31em;
+}
+
+.sectp{
+    text-align: center;
+}
+
+.sectp p{
+    padding-top: 20px;
+    color: red;
+    font-size: 41px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.img6 img{
+    width: 63.5%;
+    height: 24em;
+    margin-left: 25em;
+    margin-top: 1em;
+    /* margin-bottom: ; */
+}
+
+ .sectEx{
+    background-color: #fff;
+    width: 100%;
+    height: 26em;
+    max-width: 100%;
+    margin-top: -15px;
+}
+
+
+ .sectExx p{
+    color: red;
+    font-size: 41px;
+    font-weight: bolder;
+     margin-top: 30px;
+     margin-left: 19.5em;
+}
+
+.sectExxx{
+    display: flex;
+    margin-top: 20px;     
+    height: 23em;
+width: 100%;        
+}
+
+    
+.sectX{
+
+/* background-color: red;
+width: 33.3333%;
+height: 22em; */
+padding: 20px; 
+margin-top: -10px;
+}  
+
+
+ 
+.sectX img{
+    width: 23.5em;
+    /* padding: 20px; */
+    height: 20em;
+} 
+
+.mos{
+    background-color: yellow;
+    width: 23.5em;
+    margin-top: -10px;
+    margin-left: px;
+    
+}  
+
+
+.mos p{
+    color: black;
+    margin-left: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+    
+.eve{
+    background-color: red;
+    width: 100%;
+    height:40em;
+    margin-top: 100px;
+
+}
+
+.ever{
+    padding-left: 550px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.ever h3{
+    font-family: gothamboid;
+    font-size: 41px;
+}
+
+.every{
+       padding-top: 10px;
+}
+
+.every img{
+    width: 60%;
+       margin-left: 420px; 
+       height: 33em;
+}
+
+.our{
+    background-color: #fff;
+    width: 100%;
+    height: 23em;
+    display: flex;
+}
+
+.our img{
+          margin-left: 400px;
+          padding-top: 30px;
+          width:35em;
+          height: 22em;
+
+}
+.our1{
+        margin-left: 80px;
+        padding-top: 30px;
+}
+
+.our h3{
+    /* margin-left: 150px; */
+    text-align: center;
+    color: red; 
+    font-size:40px;
+    font-weight:bold;
+}
+
+.our p{
+    padding-top: 15px; 
+    color:rgb(105, 102, 102); 
+    font-size:20px;
+
+}
+
+.fin{
+    display: flex;
+    background-color: rgb(255, 208, 0);
+    width: 100%;
+    height: 23em;
+    margin-top: 10px;
+}
+
+.find{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.finmg img{
+    margin-left: 205px;
+    margin-top: 50px;
+}   
+
+footer{
+    display: flex;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    color: white;
+}
+
+footer a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-weight: light;
+    margin-top: 15px;
+}
+
+footer a:hover{
+    color: yellow;
+}
+
+/*RESPONSIVENESS*/
+
+
+@media screen and (max-width:1080px) and (min-width:896px) {
+    body{
+        max-width: 100%;
+        width: 100%;
+        background-color: white;
+
+    }
+    
+}
+
+@media screen and (max-width:896px) and (min-width:600px) {
+    
+    body{
+        max-width: 100%;
+        width: 100%;
+        background-color: white;
+        
+    }
+
+    .logo{
+        width: 8em;
+        background-color: red;  
+        margin-left: 400px;
+        height: 7.5em;
+    
+        
+    }
+    .logo img{
+        margin-left: 15px;
+        width: 100px;
+    }
+
+    .navbar{
+        background-color: rgba(0,0,0,0.50);
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        height: 7.5em;
+  
+  }
+  
+  .menu li{
+      list-style-type: none;
+      margin-top: 40px;
+  
+  }
+  
+  .menu a{
+      text-decoration: none;
+      color: #fff;
+      padding: 25px;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bolder;
+      margin-left: 20px;
+  }
+  
+  
+  .menu a:hover{
+      color: rgb(185, 185, 159);
+      border-bottom: 5px solid red;
+  }
+  
+  .menu{
+      display: flex;
+  
+  }
+  
+  .com{
+      position: relative;
+  }
+  
+  .dropdown{
+      background-color: rgba(0,0,0,0.50);
+      position: absolute;
+      display: none;
+      border-radius: 15px;
+      text-align: center;
+      width: 18em;
+      top: 20px;
+      margin-top: 20px;
+       
+  }
+  
+  .dropdown a:hover{
+      color: rgb(185, 185, 159);
+      border: none;
+  
+  } 
+  
+  .dropdown li{
+       margin-bottom: 25px;
+      
+  }
+  
+  .com:hover .dropdown{
+      display: block;
+  }
+  
+}
+
+
+@media screen and (max-width:600px) and (min-width:400px) {
+    
+    body{
+        max-width: 100%;
+        width: 100%;
+        background-color: white;
+
+    }
+    .logo{
+        width: 8em;
+        background-color: red;  
+        margin-left: 400px;
+        height: 7.5em;
+    
+        
+    }
+    .logo img{
+        margin-left: 15px;
+        width: 100px;
+    }
+
+    .navbar{
+        background-color: rgba(0,0,0,0.50);
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        height: 7.5em;
+  
+  }
+  
+  .menu li{
+      list-style-type: none;
+      margin-top: 40px;
+  
+  }
+  
+  .menu a{
+      text-decoration: none;
+      color: #fff;
+      padding: 25px;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bolder;
+      margin-left: 20px;
+  }
+  
+  
+  .menu a:hover{
+      color: rgb(185, 185, 159);
+      border-bottom: 5px solid red;
+  }
+  
+  .menu{
+      display: flex;
+  
+  }
+  
+  .com{
+      position: relative;
+  }
+  
+  .dropdown{
+      background-color: rgba(0,0,0,0.50);
+      position: absolute;
+      display: none;
+      border-radius: 15px;
+      text-align: center;
+      width: 18em;
+      top: 20px;
+      margin-top: 20px;
+       
+  }
+  
+  .dropdown a:hover{
+      color: rgb(185, 185, 159);
+      border: none;
+  
+  } 
+  
+  .dropdown li{
+       margin-bottom: 25px;
+      
+  }
+  
+  .com:hover .dropdown{
+      display: block;
+  }
+  
+}
+
+ijk
